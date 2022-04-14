@@ -1,0 +1,101 @@
+.wrapper_start {
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.654), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/9993531/pexels-photo-9993531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: opacity(80%);
+  }
+  .Container_start {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav_start {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.521);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  .logo_start {
+    font-family: "Abel", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 0.7rem;
+    color: white;
+    margin: 4%;
+  }
+  .menu_start {
+    display: inline-block;
+    line-height: 80px;
+  }
+  .menu_start ul {
+    list-style: none;
+    /* display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; */
+  }
+  .menu_start ul .navlink_start {
+    display: inline-block;
+  }
+  .menu_start ul .navlink_start  {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: 0.5s ease;
+  }
+  
+  .header_start {
+    text-align: center;
+  }
+  .header_start h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: white;
+    padding: 5% 20px 8px;
+  }
+  .header_start p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: white;
+    padding: 10px 15px;
+  }
+   .button-two{
+      background-color: #8e44ad;
+      color: white;
+      text-decoration: none;
+      border: 1px solid transparent;
+      font-weight: bold;
+      padding: 18px 30px;
+      border-radius: 30px;
+      transition: .4s; 
+  }
+  .button-two:hover{
+      background-color: transparent;
+      border: 2px solid #8e44ad;
+      cursor: pointer;
+  }
+  span{
+    font-size: 15px;
+  }

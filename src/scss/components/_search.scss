@@ -1,0 +1,37 @@
+:root{
+  --bg-color: #99999900;
+  --text-color: #ffffff;
+  --boder-color: #686de0;
+}
+
+
+.searchContainer .form{
+  display: flex;
+
+ border: 3px solid #4b0f83;
+  border-radius: 15px;
+  width: 300px;
+
+  
+}
+.searchContainer input[type="text"]{
+  flex-grow: 1;
+  border-width: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  padding: 15px 18px;
+  outline: none;
+  border-radius: 10px;
+
+}
+.searchContainer button {
+  border-width: 0;
+  padding: 15px 18px;
+  background: #33005e;
+  color: var(--text-color);
+  border:  1px solid #33005e;
+  outline: none;
+  border-radius: 12px;
+  cursor: pointer;
+
+}
