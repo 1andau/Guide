@@ -1,7 +1,11 @@
 import Button from './Button';
 import { Link } from 'react-router-dom';
+import { useUserContext } from '../auth/context/userContext';
+
 const NavBar = () => {
 
+  const { user, logoutUser } = useUserContext();
+  console.log(user);
 
   return (
     <div className="container">
@@ -39,7 +43,7 @@ const NavBar = () => {
 
   <Link  to = "/">
     <Button 
-     className="btn-contact" to="/">Log in
+     className="btn-contact" onClick={logoutUser} to="/">Log out
     </Button>
     </Link>
     </header>

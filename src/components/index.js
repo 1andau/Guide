@@ -9,6 +9,8 @@ export { default as WishlistItem} from './WishlistItem';
 export { default as ImpressionPage} from './reccomended/StartPage';
 export { default as UnusualPage} from './unusual/UnusualPage';
 
+export {default as SignInPopup} from '../auth/SignInPopup';
+
 
 export { default as Reccomended} from './reccomended/Reccomended';
 

@@ -3,7 +3,7 @@
       {
         "id": 0,
         "imageUrl": "https://images.pexels.com/photos/2570063/pexels-photo-2570063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Германия",
+        "name": "Germany",
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 80663,
@@ -13,7 +13,7 @@
       {
         "id": 1,
         "imageUrl": "https://images.pexels.com/photos/2082103/pexels-photo-2082103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Франция",
+        "name": "France",
         "types": [0],
         "sizes": [26, 40],
         "price": 24665,
@@ -23,7 +23,7 @@
       {
         "id": 2,
         "imageUrl": "https://images.pexels.com/photos/2064827/pexels-photo-2064827.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-        "name": "Италия",
+        "name": "Italy",
         "types": [0],
         "sizes": [26, 40],
         "price": 26695,
@@ -33,7 +33,7 @@
       {
         "id": 3,
         "imageUrl": "https://images.pexels.com/photos/2430953/pexels-photo-2430953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Испания",
+        "name": "Spain",
         "types": [1],
         "sizes": [26, 30, 40],
         "price": 26675,
@@ -43,7 +43,7 @@
       {
         "id": 4,
         "imageUrl": "https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Нидерланды",
+        "name": "Netherlands",
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 46615,
@@ -53,7 +53,7 @@
       {
         "id": 5,
         "imageUrl": "https://images.pexels.com/photos/6128193/pexels-photo-6128193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Австрия",
+        "name": "Austria",
         "types": [0],
         "sizes": [30, 40],
         "price": 56680,
@@ -63,7 +63,7 @@
       {
         "id": 6,
         "imageUrl": "https://images.pexels.com/photos/2587789/pexels-photo-2587789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Бельгия",
+        "name": "Belgium",
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 67665,
@@ -73,7 +73,7 @@
       {
         "id": 7,
         "imageUrl": "https://images.pexels.com/photos/2416653/pexels-photo-2416653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Ирландия",
+        "name": "Ireland",
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 45660,
@@ -83,7 +83,7 @@
       {
         "id": 8,
         "imageUrl": "https://images.pexels.com/photos/2311602/pexels-photo-2311602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Финляндия",
+        "name": "Finland",
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 39665,
@@ -93,7 +93,7 @@
       {
         "id": 9,
         "imageUrl": "https://images.pexels.com/photos/442583/pexels-photo-442583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-        "name": "Чехия",
+        "name": "Czech Republic",
         "types": [0, 1],
         "sizes": [26, 30, 40],
         "price": 26685,
@@ -103,7 +103,7 @@
       {
       "id": 13,
       "imageUrl": "https://images.pexels.com/photos/831082/pexels-photo-831082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "name": "Словакия",
+      "name": "Slovakia",
       "types": [0, 1],
       "sizes": [26, 30, 40],
       "price": 26685,
@@ -114,7 +114,7 @@
     {
       "id": 14,
       "imageUrl": "https://images.pexels.com/photos/1547735/pexels-photo-1547735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "name": "Португалия",
+      "name": "Portugal",
       "types": [0, 1],
       "sizes": [26, 30, 40],
       "price": 26685,

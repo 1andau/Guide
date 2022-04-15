@@ -12,7 +12,7 @@ function CartBlock( {id, name, imageUrl, price,  personaСlickСomponents, added
 const [like, setLike] =  React.useState(liked);
 const onClickLike = () => {
 
-  onFavorite({title, imageUrl, price, id, name,  subtitle })
+  onFavorite({title, imageUrl, price, id, name })
 
   setLike(!like)
 }
@@ -52,7 +52,7 @@ className='icon'
     <Modal trigger={buttonPopup}
     setTrigger = {setButtonPopup}>
       <br />  <br />
-      {subtitle}
+      <h1> <b>{price} $</b> </h1>
       {name}
     </Modal>
 

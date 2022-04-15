@@ -99,3 +99,131 @@
   span{
     font-size: 15px;
   }
+
+
+/* ==================== Authentication  popup ====================================== */
+
+
+
+
+  .popup-blackout {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.722);
+    transition: opacity 500ms;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup__close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+  
+    transition-duration: 0.8s;
+    transition-property: transform;
+  }
+  .auth__popup {
+    background-color: #20202036;
+    border-radius: 15px;
+    
+    position: relative;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .auth__popup>h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 23px 0 17px 0;
+  }
+  
+  .auth__popup>hr {
+    width: 500px;
+    margin: 0 28px 0 28px;
+  }
+  
+  .auth-ways {
+    padding: 50px 0 50px 0;
+  }
+  
+  .auth__buttnon {
+    width: 445px;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  
+  .auth__button-transition {
+    width: 80px;
+    height: 70px;
+    background-color: #141414;
+    border-radius: 30px;
+    
+  
+    transition: width 0.8s;
+  }
+  
+  .button-content {
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .button-content:hover + .auth__button-transition {
+  
+    -o-transform: translateX(1px);
+    -ms-transform: translateX(1px);
+    -moz-transform: translateX(1px);
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+    width: 445px;
+  }
+  
+  .under-logo {
+    width: 80px;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 30px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .auth__buttnon-logo {
+      width: 39px;
+      height: auto;
+      z-index: 1;
+  }
+  
+  .auth__buttnon-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 55px;
+    z-index: 1;
+  }
+  
+  .auth__close {
+    top: 0px;
+    right: 30px;
+  }
+  

@@ -73,7 +73,7 @@ fly, bro</h2>
 <path d="M11.6666 9.16667V14.1667" stroke="#B6B6B6" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
 
-            <span onClick={onClearCart}>clear</span>
+            <span onClick={onClearCart}>Clear</span>
           </div>
         </div>
         <div className="content__items">
@@ -104,7 +104,7 @@ fly, bro</h2>
           </div>
 
           <div className="cart__bottom-buttons">
-            <a href="/" className="button button--outline button--add go-back-btn">
+            <a href="/home" className="button button--outline button--add go-back-btn">
               <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M7 13L1 6.93015L6.86175 1" stroke="#D3D3D3" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 </svg>
@@ -112,21 +112,21 @@ fly, bro</h2>
               <span>Сome back</span>
             </a>
             <Button onClick={onClickOrder} className="pay-btn">
-              <span>Pay for travel </span>
+              <span>To buy a ticket </span>
             </Button>
           </div>
         </div>
       </div> : 
 
 <div className="cart cart--empty">
-            <h2>Ну бро, <i>✈️</i></h2> 
+            <h2> Dude, <i>✈️</i></h2> 
             <p>
               <br />
-               Тут пусто, ты чего как бичара, давай закидывай чета 
+              it's empty. I recommend now to buy a ticket to Germany, it's very cool there
             </p>
             <img src={cartEmptyImage} alt="Empty cart" />
-            <Link to="/" className="button button--black">
-              <span>Вернуться назад</span>
+            <Link to="/home" className="button button--black">
+              <span>Go back</span>
             </Link>
           </div>
 

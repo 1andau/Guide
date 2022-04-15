@@ -1,9 +1,7 @@
 import React from "react";
-//import { auth } from '../firebase';
-import { Redirect } from "react-router-dom";
 import { SignInPopup } from "../components";
-
 import { Link } from "react-router-dom";
+
 function Main() {
 
   const [signInVisible, setSignInVisible] = React.useState(false);  
@@ -15,12 +13,12 @@ function Main() {
     setSignInVisible(false);
   }
 
-
   return (
-
 <div className="wrapper_start">
-{/* {signInVisible && auth.currentUser && <Redirect to={"/lists"} />}    
-{signInVisible && <SignInPopup onClickClosePopup={closeSignInPopup} />} */}
+
+
+{signInVisible && <SignInPopup onClickClosePopup={closeSignInPopup} />}
+
   <div className="Container_start">
         <div className="nav_start">
         <Link className='logo_start' alt='logo'  to="/" >
@@ -33,7 +31,7 @@ function Main() {
                 <ul className="navMenu_start">
 
       
-     <Link className="button-two" to="/home"><span>login without authorization</span> </Link>          
+     <Link className="button-two" to="/impressionPage"><span>login without authorization</span> </Link>          
      
       </ul>
 

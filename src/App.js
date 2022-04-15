@@ -2,16 +2,18 @@ import React from 'react';
 import { Route } from "react-router-dom";
 
 import {Home, Cart} from './pages';
-import {  UnusualPage, ImpressionPage,  Reccomended } from './components';
+import {  UnusualPage, ImpressionPage,  Reccomended, SignInPopup } from './components';
 import Wishlist from './pages/Wishlist'
 import Signin from './auth/Signin';
 import Main from './pages/Main';
-
+import { useUserContext } from './auth/context/userContext';
 function App() {
+
 
   return (
 <div className="wrapper">
 {/* <div className="content"> */}
+]
 
 <Route exact path="/" component={Main}></Route>
 
