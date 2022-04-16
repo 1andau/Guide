@@ -15,7 +15,6 @@ function SortPopup ({items, onClickSortType, activeSortType}){
     
     
     const handleOutsideClick = (e) => {
-    //  const path = event.path || (event.composedPath && event.composedPath());
       if (!e.path.includes(sortRef.current)){
     setVisiblePopup(false);
       }
@@ -24,8 +23,8 @@ function SortPopup ({items, onClickSortType, activeSortType}){
     const onSelectItem = (index) => {
      if (onClickSortType){
        onClickSortType(index)
-     } //  тут мы указываем какой из li становится активным при клике 
-      setVisiblePopup(false); //а тут говорим что когда кликаем на элемент наприемр "по алфавиту" скрывается блок
+     }  
+      setVisiblePopup(false); 
     };
     
     
@@ -33,10 +32,7 @@ function SortPopup ({items, onClickSortType, activeSortType}){
     
     React.useEffect(() => {
     document.body.addEventListener('click', handleOutsideClick);
-        //что делает useEffect? проверяет в принципе был ли
-        // компонент обновлен и был ли смионтирован и долджен 
-        //ли компонент удалится
-        //если компонент в внедрился, оповести нас об этом 
+      
     
     }, []);
     
@@ -63,19 +59,13 @@ function SortPopup ({items, onClickSortType, activeSortType}){
             {activeLabel} </span>    
                </div>
     
-          {/* за счет ! мы можнм делать true/false  */}
     {  visiblePopup && (
     
      <div className="sort__popup">
-    {/* 
-    если visiblePopup тру, то эти два амперсанта скажут что правая сторона должна отразиться 
-    если false -- то не выполняет   
-    теперь попап скрывается и при наведении появляется 
-    */}
+ 
 
 
 
-    {/* items -- хранилище всех наших данных из json, чекай guids в actions  */}
             <ul>
             {items &&
                  items.map((obj, index) => (
@@ -83,7 +73,6 @@ function SortPopup ({items, onClickSortType, activeSortType}){
                      <li
                      onClick={() => onSelectItem(obj.type)} 
                      className = {activeSortType === index ? 'active' : ''} 
-                     //мы сказали что oneSelectItem получает index
                      key = {`${obj.type}_${index}`}>
                        {obj.name}
                        </li>
