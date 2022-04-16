@@ -8,7 +8,7 @@ export const fetchGuids = (sortBy, category) => (dispatch) => {
       payload: false,    
 });
 
-   axios.get(`/guids?${category !==null ? `category=${category}` : ''}&_sort=${sortBy}&_order=desc`).then(({data}) => {
+   axios.get(`http://localhost:3002/guids?${category !==null ? `category=${category}` : ''}&_sort=${sortBy}&_order=desc`).then(({data}) => {
 dispatch(setGuids(data));
    });  
 };
